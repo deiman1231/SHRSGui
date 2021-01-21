@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TableView layoutX="58.0" layoutY="86.0" prefHeight="289.0" prefWidth="484.0">
+        <columns>
+          <TableColumn prefWidth="112.80001831054688" text="First Name " />
+          <TableColumn prefWidth="116.00003051757812" text="Last Name " />
+            <TableColumn prefWidth="149.60000610351562" text="Records " />
+            <TableColumn prefWidth="103.199951171875" text="D.O.B" />
+        </columns>
+      </TableView>
+      <Label layoutX="58.0" layoutY="25.0" prefHeight="37.0" prefWidth="87.0" text="Welcome">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

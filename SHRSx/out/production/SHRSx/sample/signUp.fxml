@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label layoutX="126.0" layoutY="151.0" text="Username" />
+        <Label layoutX="128.0" layoutY="200.0" text="Password" />
+        <TextField layoutX="207.0" layoutY="146.0" />
+        <PasswordField layoutX="207.0" layoutY="195.0" />
+        <Button fx:id="btn3" layoutX="252.0" layoutY="290.0" mnemonicParsing="false" onAction="#returnToLogin" prefHeight="40.0" prefWidth="96.0" style="-fx-background-color: BLUE; -fx-font-weight: BOLD;" text="Sign up" textFill="WHITE" />
+        <ImageView fitHeight="100.0" fitWidth="112.0" layoutX="47.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <!--  <Image url="@../../../../OneDrive/Desktop/icons-solutions-legacy-ehr.jpg" /> -->
+            </image>
+        </ImageView>
+        <Label layoutX="174.0" layoutY="60.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="Secure Health Care System" />
+        <Label layoutX="80.0" layoutY="249.0" text="Repeat Password" />
+        <TextField layoutX="207.0" layoutY="244.0" />
+      <Button layoutX="252.0" layoutY="349.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="96.0" style="-fx-background-color: BLUE; -fx-font-weight: BOLD;" text="Login" textFill="WHITE" />
+    </children>
+</Pane>
